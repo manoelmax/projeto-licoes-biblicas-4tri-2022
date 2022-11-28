@@ -1,25 +1,15 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 1200px) {
-    
-    body{
-        width: 100vw;
-        
+    header{
+        margin-top: 10px;
     }
 
-    header{
-        width: 100vw;
-     }
-
     main{
-        width: 850px;  
+        width: 750px; 
     }
 
     section#imagem img{
-        width: 850px;
-    }
-
-    section#conteudo{
-        
+        width: 700px;
     }
 }

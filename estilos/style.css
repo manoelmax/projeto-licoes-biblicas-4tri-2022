@@ -22,13 +22,12 @@
 }
 
 body{
-    width: 90vw;
     background-color: var(--cor4);
-    margin: auto;
 }
 
 header{
     width: 90vw;
+    margin: auto;
     text-align: center;
     background-image: linear-gradient(to bottom, var(--cor0), var(--cor1));
     color: white;
@@ -60,7 +59,6 @@ header > p{
 
 main{    
     width: 90vw;
-    
     margin: auto;
     background-color: var(--cor3);
     border-radius: 10px;
@@ -71,28 +69,24 @@ main{
 }
 
 section#imagem > img{
-    width: 90vw;
+    width: 80vw;
     display: block;
     margin: auto;
-    border-radius: 10px;
+    padding-top: 10px;
 }
 
-section#conteudo{
-    
+section#conteudo{   
     background-color: var(--cor2);
     border-radius: 10px;
-    margin-top: 20px;
-    padding-bottom: 20px;
     color: white;
+    margin: 10px 25px 10px 25px;
 }
 
 section#conteudo > p{
     text-indent: 20px;
     font-size: 1.2em;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 20px 30px 20px 30px;
     text-align: justify;
-    padding-top: 20px;
 }
 
 section#conteudo > div#links{
@@ -110,7 +104,7 @@ section#conteudo > div > ul {
 }
 
 section#conteudo a{
-    background-color: var(--cor0);
+    background-color: var(--cor4);
     text-decoration: none;
     display: block;
     width: 250px;
