@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@media screen (min-width: 600px){
+    header{
+        margin-top: 10px;
+    }
+
+    main{
+        width: 375px;
+    }
+
+    section#imagem > img{
+        width: 325px;
+    }
+}
