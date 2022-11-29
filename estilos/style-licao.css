@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+:root{
+
+    --cor0: #284259;
+    --cor1: #D9B341;
+    --cor2: #734E20;
+    --cor3: #F2B05E;
+    --cor4: #590202;
+    --cor5: #548aba;
+
+    --fonte-titulo: 'Prata', serif;
+    --fonte-tema: 'Carter One', cursive;
+    --fonte-padrao: Arial, sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--fonte-padrao);
+}
+
+body{
+    background-color: var(--cor4);
+}
+
+header#cabecalho_principal{
+    background-color: var(--cor2);
+    text-align: center;
+    color: white;
+    width: 90vw;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+header#cabecalho_principal h1{
+    font-family: var(--fonte-titulo);
+    padding-top: 20px;
+}
+
+header#cabecalho_principal h2{
+    font-family: var(--fonte-tema);
+    padding-top: 20px;
+}
+
+main{
+    width: 86vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+/* artigo texto aureo verdade pratica */
+article.art_ta_vp{
+    border-width: 4px;
+    border-style: solid;
+    border-color: var(--cor0) var(--cor0) var(--cor2) var(--cor2);
+    border-radius: 0px 10px 0px 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+article.art_ta_vp p {
+    text-align: center;
+}
+/* artigo leitura diaria*/
+article.lei_dia{
+    background-color: var(--cor5);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+article.lei_dia p{
+    padding-bottom: 5px;
+}
+
+article.lei_dia p.centro{
+    text-align: center;
+}
+
+article.lei_dia hr{
+    margin-bottom: 10px;
+}
+
+/* seção leitura bíblica em casa */
+
+section.sec_lei_bi_ksa header{
+    background-color: var(--cor4);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+section.sec_lei_bi_ksa article{
+    background-color: var(--cor3);
+    margin-top: 2px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+section.sec_lei_bi_ksa > article > p{
+    padding-bottom: 5px;
+}
+
+section.sec_lei_bi_ksa > article > p.centro{
+    text-align: center;
+}
