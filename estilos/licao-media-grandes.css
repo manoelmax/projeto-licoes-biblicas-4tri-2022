@@ -4,9 +4,13 @@
     main{
         width: 850px;
     }
+
+    ::selection#sec_ta_vp{
+        margin: auto;
+    }
     
     article.art_ta_vp{
-        display: inline-block;
+    
         width: 380px; /* 760 / 2 */
         
     }
