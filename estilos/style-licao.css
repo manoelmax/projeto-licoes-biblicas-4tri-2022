@@ -60,9 +60,10 @@ article.art_ta_vp{
     border-width: 4px;
     border-style: solid;
     border-color: var(--cor0) var(--cor0) var(--cor2) var(--cor2);
-    border-radius: 0px 10px 0px 10px;
+    border-radius: 0px 25px 0px 25px;
     padding: 5px;
     margin-bottom: 10px;
+    
 }
 
 article.art_ta_vp p {
@@ -89,26 +90,160 @@ article.lei_dia hr{
     margin-bottom: 10px;
 }
 
-/* seção leitura bíblica em casa */
+/* seção leitura bíblica em classe */
 
-section.sec_lei_bi_ksa header{
+section.sec_lei_bi_cla header{
     background-color: var(--cor4);
     padding: 10px;
     text-align: center;
     color: white;
     border-radius: 5px;
 }
-section.sec_lei_bi_ksa article{
+section.sec_lei_bi_cla article{
     background-color: var(--cor3);
     margin-top: 2px;
     padding: 10px;
     border-radius: 5px;
+    text-align: justify;
 }
 
-section.sec_lei_bi_ksa > article > p{
+section.sec_lei_bi_cla > article > p{
     padding-bottom: 5px;
 }
 
-section.sec_lei_bi_ksa > article > p.centro{
+section.sec_lei_bi_cla > article > p.centro{
     text-align: center;
+    font-weight: bold;
+}
+
+header#head_com{
+    background-color: var(--cor0);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/*section introdução*/
+
+section#intro header{
+    text-align: center;
+    color: var(--cor0);
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section#intro article{
+    text-indent: 20px;
+    text-align: justify;
+}
+
+/*seção tópico 1*/
+
+section#topico1 header{
+    text-align: center;
+    color: var(--cor0);
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section#topico1 > article > p{
+    text-indent: 20px;
+    text-align: justify;
+}
+/* seção tópico 2 */
+section#topico2 header{
+    text-align: center;
+    color: var(--cor0);
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section#topico2 > article > p{
+    text-indent: 20px;
+    text-align: justify;
+}
+
+/* seção ampliando conhecimento*/
+
+section#quadro header{
+    background-color: var(--cor0);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+section#quadro > div#texto > article > p.centro{
+    text-align: center;
+}
+
+/*seção tópico 3*/
+
+section#topico3 header{
+    text-align: center;
+    color: var(--cor0);
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section#topico3 > article > p{
+    text-indent: 20px;
+    text-align: justify;
+}
+
+/*seção tópico 4*/
+
+section#topico4 header{
+    text-align: center;
+    color: var(--cor0);
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section#topico4 > article > p{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+section#conclusao header{
+    text-align: center;
+    font-weight: bold;
+    color: var(--cor0);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section#conclusao > article > p{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+/*seção perguntas*/
+
+section#perguntas header{
+    text-align: center;
+    padding: 10px;
+    background-color: var(--cor4);
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+section#perguntas article{
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+section#perguntas > article > p{
+    padding-bottom: 10px;
 }
