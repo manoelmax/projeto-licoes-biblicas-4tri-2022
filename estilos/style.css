@@ -60,10 +60,11 @@ header > p{
 main{    
     width: 90vw;
     margin: auto;
-    background-color: var(--cor3);
+    background-color: white;
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding-top: 10px;
     box-shadow: 0px 0px 10px black;
     padding-bottom: 20px;
 }
@@ -72,13 +73,13 @@ section#imagem > img{
     width: 80vw;
     display: block;
     margin: auto;
-    padding-top: 10px;
+    border-radius: 5px;
 }
 
 section#conteudo{   
-    background-color: var(--cor2);
+    background-color: white;
     border-radius: 10px;
-    color: white;
+    
     margin: 10px 25px 10px 25px;
 }
 
@@ -89,32 +90,20 @@ section#conteudo > p{
     text-align: justify;
 }
 
-section#conteudo > div#links{
+div#link{
     display: block;
     margin: auto;
-    width: 250px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-section#conteudo > div > ul {
-    display: block;
-    list-style-type: none;
-    margin: auto;
-}
-
-section#conteudo a{
-    background-color: var(--cor4);
-    text-decoration: none;
-    display: block;
     width: 250px;
     text-align: center;
-    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 10px;
-    border-radius: 10px;
+    background-color: var(--cor4);
+    border-radius: 5px;
 }
 
-section#conteudo a:hover{
-    background-color: var(--cor3);
-    color: var(--cor0);
+div#link a{
+    text-decoration: none;
+    color: white;
+    
 }

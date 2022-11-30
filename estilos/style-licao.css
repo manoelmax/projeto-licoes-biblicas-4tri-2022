@@ -181,10 +181,30 @@ section#quadro header{
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 2px;
+    border-radius: 5px;
 }
 
-section#quadro > div#texto > article > p.centro{
+section#quadro img{
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+}
+
+section#quadro article{
+    background-color: var(--cor1);
+    margin-top: 2px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+section#quadro > article > p{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+section#quadro > article > p.centro{
     text-align: center;
+    font-weight: bold;
 }
 
 /*seção tópico 3*/
@@ -250,4 +270,21 @@ section#perguntas article{
 
 section#perguntas > article > p{
     padding-bottom: 10px;
+}
+
+div#link{
+    display: block;
+    margin: auto;
+    width: 250px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: var(--cor4);
+    border-radius: 5px;
+}
+
+div#link a{
+    text-decoration: none;
+    color: white;
+    
 }

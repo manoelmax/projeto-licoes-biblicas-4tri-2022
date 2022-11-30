@@ -1,9 +1,7 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 992px){
-    article.art_ta_vp{
-        display: inline-block;
-        width: 380px; /* 760 / 2 */
-        
+    main{
+        width: 660px;
     }
 }
